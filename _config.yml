@@ -6,7 +6,7 @@ description: >
 baseurl:
 url: "http://liangliang6v6.github.io"
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: U+1FA84 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: 🪄 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 # repo color theme
 repo_theme_light: default       # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_theme_dark: dark           # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
