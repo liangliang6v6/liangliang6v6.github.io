@@ -109,3 +109,27 @@ footer {
 	text-align: center;
 	padding: 40px;
 }
+
+.bio {
+	display: flex;
+	align-items: flex-start;
+  }
+  
+  .profile-photo {
+	border-radius: 50%;
+	margin-right: 15px;
+	object-fit: cover;
+	width: 150px; 
+	height: auto;
+  }
+  
+  .bio-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+  }
+  
+  .bio-content h2, .bio-content p {
+	margin: 0;
+  }
+  
