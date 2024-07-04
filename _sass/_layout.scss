@@ -14,42 +14,14 @@ h3 {
 	font-family: $heading-font;
 	line-height: 1.5;
 }
-// h1 {
-// 	color: $main;
-// 	font-size: 2.5em;
-// 	a,
-// 	a:visited {
-// 		text-decoration: none;
-// 		color: $main;
-// 	}
-// }
 h1 {
-    position: relative;
-    font-size: 2.5em;
-    color: $main; /* Keep the original text color */
-    padding: 20px;
-    border-radius: 10px;
-    text-align: center;
-    overflow: hidden;
-    a,
-    a:visited {
-        text-decoration: none;
-        color: $main; /* Ensure links have the same color */
-    }
-}
-
-h1::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: $h1-bg no-repeat center center;
-    background-size: cover;
-    filter: blur(10px); /* Apply a blur effect */
-    z-index: -1;
-    opacity: 0.6; /* Optional: Adjust opacity for better text visibility */
+	color: $main;
+	font-size: 2.5em;
+	a,
+	a:visited {
+		text-decoration: none;
+		color: $main;
+	}
 }
 h2 {
 	font-size: 2em;
