@@ -1,8 +1,4 @@
----
-layout: page
-title: About
-permalink: /about/
----
+# Liangliang Zhang's Homepage
 
 Hey! I’m Liangliang Zhang, a Ph.D. student of Computer Science at [Rensselaer Polytechnic Institute (RPI)](https://www.rpi.edu/) under the supervision of [Prof. Yao Ma](https://yaoma24.github.io/). I received a bachelor's degree in Software Engineering from the [Central South University (CSU)](https://www.csu.edu.cn/).
 
