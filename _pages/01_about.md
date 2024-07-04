@@ -15,5 +15,5 @@ Hey! I’m Liangliang Zhang, a Ph.D. student of Computer Science at [Rensselaer 
 ## News
 
 - [06/2024] Received the KDD2024 Student Travel Award.
-- [05/2024] We are presenting a tutorial on [Safe Multi-Modal Machine Learning](https://sites.google.com/view/kdd-tutorial/safe-multi-modal)  at **KDD 2024**.
-- [05/2024] One survey is accepted by **KDD 2024**.
+- [05/2024] We are presenting a tutorial on [Safe Multi-Modal Machine Learning](https://sites.google.com/view/kdd-tutorial/safe-multi-modal)  at KDD 2024.
+- [05/2024] Our survey [A Survey on Safe Multi-Modal Learning System.](https://arxiv.org/pdf/2402.05355.pdf) is accepted by KDD 2024.
