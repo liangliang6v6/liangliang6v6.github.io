@@ -1,0 +1,15 @@
+# Site Settings
+title: Liangliang Zhang
+email: zhangl41@rpi.edu
+description: >
+  Liangliang's Personal Website.
+baseurl: ""
+url: "http://liangliang6v6.github.io"
+twitter_username:
+github_username:
+# Build Settings
+sass:
+  sass_dir: _sass
+include: ['_pages']
+kramdown:
+  input: GFM
