@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "KDD Volunteering"
-date:   2024-8-29 12:00:00
-categories: Volunteer
+title:  "KDD'24 Volunteering"
+date:   2024-08-29 12:00:00
+categories: Volunteering
 ---
 
 ## My Experience as a KDD'24 Volunteer 🌟
