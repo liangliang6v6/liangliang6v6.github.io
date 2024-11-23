@@ -22,9 +22,8 @@ Check our tutorial here: [KDD'24 Safe Multi-Modal Machine Learning Tutorial](htt
 Here are some snapshots from my KDD’24 journey!
 
 #### 1. Volunteer Team at KDD’24 🎉
-![KDD](/assets/img/kdd24/kdd.jpeg)
 ![Volunteer Team Photo](/assets/img/kdd24/team.jpeg)
-![Teams](/assets/img/kdd24/photo.jpeg)
+
 
 #### 2. Keynote Session Hall 📸
 ![Keynote Hall](/assets/img/kdd24/pre.jpeg)
