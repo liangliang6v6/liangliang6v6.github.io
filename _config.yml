@@ -18,8 +18,6 @@ rss_icon: true
 # Build Settings
 sass:
   sass_dir: _sass
-include: ['_pages','_posts']
+include: ['_pages']
 kramdown:
   input: GFM
-plugins:
-  - jekyll-feed
