@@ -5,6 +5,10 @@ permalink: /research/
 ---
 
 ## Publications and Preprints
+**Liangliang Zhang**, Haoran Bao, Yao Ma\
+[Extending Graph Condensation to Multi-Label Datasets: A
+Benchmark Study.](https://arxiv.org/pdf/2412.17961)\
+arXiv:2412.17961
 
 Tianyi Zhao, **Liangliang Zhang**, Yao Ma, Lu Cheng\
 [A Survey on Safe Multi-Modal Learning System.](https://arxiv.org/pdf/2402.05355.pdf)\
