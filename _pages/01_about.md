@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Hey! I’m Liangliang Zhang, a Ph.D. student of Computer Science at [Rensselaer Polytechnic Institute (RPI)](https://www.rpi.edu/) under the supervision of [Prof. Yao Ma](https://yaoma24.github.io/). I received a bachelor's degree in Software Engineering from the [Central South University (CSU)](https://www.csu.edu.cn/). Check and download my CV [here] (../assets/pdf/CV.pdf)(PDF).
+Hey! I'm Liangliang Zhang, a Ph.D. student of Computer Science at [Rensselaer Polytechnic Institute (RPI)](https://www.rpi.edu/) under the supervision of [Prof. Yao Ma](https://yaoma24.github.io/). I received a bachelor's degree in Software Engineering from the [Central South University (CSU)](https://www.csu.edu.cn/). Check and download my CV [here](../assets/pdf/CV.pdf) (PDF).
 
 ## Research Interests
 
