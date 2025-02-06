@@ -8,9 +8,10 @@ Hey! I’m Liangliang Zhang, a Ph.D. student of Computer Science at [Rensselaer 
 
 ## Research Interests
 
+- Large Language Models, GraphRAG, Knowledge Graphs
 - Machine Learning with Graphs, Graph Neural Networks
 - Trustworthiness in Multimodal Systems
-- Dataset Distillation
+- Data-Centric AI, Data Condensation
 
 ## News
 
