@@ -14,7 +14,8 @@ Hey! I'm Liangliang Zhang, a Ph.D. student of Computer Science at [Rensselaer Po
 - Data-Centric AI, Data Condensation
 
 ## News
-
+- [04/2025] Our paper [Extending Graph Condensation to Multi-Label Datasets: A Benchmark Study](https://openreview.net/pdf?id=7aJxaPg30d) is accepted by Transactions on Machine Learning Research (TMLR).
+- [04/2025] Our paper [Learning to Reduce the Scale of Large Graphs: A Comprehensive Survey](https://arxiv.org/pdf/2402.05355.pdf) is accepted by ACM Transactions on Knowledge Discovery from Data (TKDD).
 - [06/2024] Received the KDD2024 Student Travel Award.
-- [05/2024] We are presenting a tutorial on [Safe Multi-Modal Machine Learning](https://sites.google.com/view/kdd-tutorial/safe-multi-modal)  at KDD 2024.
+- [05/2024] We are presenting a tutorial on [Safe Multi-Modal Machine Learning](https://sites.google.com/view/kdd-tutorial/safe-multi-modal) at KDD 2024.
 - [05/2024] Our survey [A Survey on Safe Multi-Modal Learning System.](https://arxiv.org/pdf/2402.05355.pdf) is accepted by KDD 2024.
