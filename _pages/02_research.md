@@ -10,7 +10,7 @@ permalink: /research/
 In Proceedings of Transactions on Machine Learning Research (TMLR), 2025
 
 Hongjia Xu, **Liangliang Zhang**, Yao Ma, Sheng Zhou, Zhuonan Zheng, Bu Jiajun\
-[Learning to Reduce the Scale of Large Graphs: A Comprehensive Survey.](https://arxiv.org/pdf/2402.02000.pdf)\
+[Learning to Reduce the Scale of Large Graphs: A Comprehensive Survey.](https://dl.acm.org/doi/pdf/10.1145/3729427)\
 In Proceedings of ACM Transactions on Knowledge Discovery from Data (TKDD), 2025
 
 Tianyi Zhao, **Liangliang Zhang**, Yao Ma, Lu Cheng\
