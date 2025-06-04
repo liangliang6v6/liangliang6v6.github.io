@@ -4,7 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Hey! I'm Liangliang Zhang, a Ph.D. student of Computer Science at [Rensselaer Polytechnic Institute (RPI)](https://www.rpi.edu/) under the supervision of [Prof. Yao Ma](https://yaoma24.github.io/). I received a bachelor's degree in Software Engineering from the [Central South University (CSU)](https://www.csu.edu.cn/). Check and download my CV [here](../assets/pdf/CV.pdf) (PDF).
+Hey! I'm Liangliang Zhang, a Ph.D. student of Computer Science at [Rensselaer Polytechnic Institute (RPI)](https://www.rpi.edu/) under the supervision of [Prof. Yao Ma](https://yaoma24.github.io/). I received a bachelor's degree in Software Engineering from the [Central South University (CSU)](https://en.csu.edu.cn/). Check and download my CV [here](../assets/pdf/CV.pdf) (PDF).
+
+**Find me online:**  
+[LinkedIn](https://www.linkedin.com/in/lia-liangliang-zhang/) &nbsp;|&nbsp;  
+[Google Scholar](https://scholar.google.com/citations?user=YOUR_SCHOLAR_ID) &nbsp;|&nbsp;  
+[GitHub](https://github.com/yourgithubusername)
 
 ## Research Interests
 
@@ -14,8 +19,17 @@ Hey! I'm Liangliang Zhang, a Ph.D. student of Computer Science at [Rensselaer Po
 - Data-Centric AI, Data Condensation
 
 ## News
+
+- [05/2025] Check our preprint on [Diagnosing and Addressing Pitfalls in KG-RAG Datasets: Toward More Reliable Benchmarking](https://arxiv.org/pdf/2505.23495).
+
+- [05/2025] Excited to join [IBM](https://research.ibm.com/labs/yorktown-heights) Research as a summer research intern, mentored by [Dr. Nandana Mihindukulasooriya](https://www.linkedin.com/in/nandanamihindu/).
+
 - [04/2025] Our paper [Extending Graph Condensation to Multi-Label Datasets: A Benchmark Study](https://openreview.net/pdf?id=7aJxaPg30d) is accepted by Transactions on Machine Learning Research (TMLR).
+
 - [04/2025] Our paper [Learning to Reduce the Scale of Large Graphs: A Comprehensive Survey](https://dl.acm.org/doi/pdf/10.1145/3729427) is accepted by ACM Transactions on Knowledge Discovery from Data (TKDD).
+
 - [06/2024] Received the KDD2024 Student Travel Award.
+
 - [05/2024] We are presenting a tutorial on [Safe Multi-Modal Machine Learning](https://sites.google.com/view/kdd-tutorial/safe-multi-modal) at KDD 2024.
+
 - [05/2024] Our survey [A Survey on Safe Multi-Modal Learning System.](https://arxiv.org/pdf/2402.05355.pdf) is accepted by KDD 2024.

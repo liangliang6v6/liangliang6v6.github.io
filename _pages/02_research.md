@@ -5,6 +5,11 @@ permalink: /research/
 ---
 
 ## Publications and Preprints
+
+**Liangliang Zhang**, Zhuorui Jiang, Hongliang Chi, Haoyang Chen, Mohammed Elkoumy, Fali Wang, Qiong Wu, Zhengyi Zhou, Shirui Pan, Suhang Wang, Yao Ma\
+[Diagnosing and Addressing Pitfalls in KG-RAG Datasets: Toward More Reliable Benchmarking.](https://arxiv.org/pdf/2505.23495)\
+arXiv:2505.23495
+
 **Liangliang Zhang**, Haoran Bao, Yao Ma\
 [Extending Graph Condensation to Multi-Label Datasets: A Benchmark Study.](https://openreview.net/pdf?id=7aJxaPg30d)\
 In Proceedings of Transactions on Machine Learning Research (TMLR), 2025
