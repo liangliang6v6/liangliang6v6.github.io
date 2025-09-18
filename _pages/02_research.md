@@ -8,7 +8,7 @@ permalink: /research/
 
 **Liangliang Zhang**, Zhuorui Jiang, Hongliang Chi, Haoyang Chen, Mohammed Elkoumy, Fali Wang, Qiong Wu, Zhengyi Zhou, Shirui Pan, Suhang Wang, Yao Ma\
 [Diagnosing and Addressing Pitfalls in KG-RAG Datasets: Toward More Reliable Benchmarking.](https://arxiv.org/pdf/2505.23495)\
-arXiv:2505.23495
+The Thirty-Ninth Annual Conference on Neural Information Processing Systems (NeurIPS 2025)
 
 **Liangliang Zhang**, Haoran Bao, Yao Ma\
 [Extending Graph Condensation to Multi-Label Datasets: A Benchmark Study.](https://openreview.net/pdf?id=7aJxaPg30d)\

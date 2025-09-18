@@ -18,6 +18,8 @@ Hey! I'm Liangliang Zhang, a Ph.D. student of Computer Science at [Rensselaer Po
 
 ## News
 
+- [09/2025] Our paper [Diagnosing and Addressing Pitfalls in KG-RAG Datasets: Toward More Reliable Benchmarking](https://arxiv.org/pdf/2505.23495) is accepted by the Thirty-Ninth Annual Conference on Neural Information Processing Systems (NeurIPS 2025).
+
 - [05/2025] Check our preprint on [Diagnosing and Addressing Pitfalls in KG-RAG Datasets: Toward More Reliable Benchmarking](https://arxiv.org/pdf/2505.23495).
 
 - [05/2025] Excited to join [IBM](https://research.ibm.com/labs/yorktown-heights) Research as a summer research intern, mentored by [Dr. Nandana Mihindukulasooriya](https://www.linkedin.com/in/nandanamihindu/).
