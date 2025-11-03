@@ -6,6 +6,10 @@ permalink: /research/
 
 ## Publications and Preprints
 
+**Liangliang Zhang**, Nandana Mihindukulasooriya, Niharika S. D'Souza, Sola Shirai, Sarthak Dash, Yao Ma, Horst Samulowitz\
+[From Factoid Questions to Data Product Requests: Benchmarking Data Product Discovery over Tables and Text.](https://arxiv.org/pdf/2510.21737)\
+arXiv:2510.21737
+
 **Liangliang Zhang**, Zhuorui Jiang, Hongliang Chi, Haoyang Chen, Mohammed Elkoumy, Fali Wang, Qiong Wu, Zhengyi Zhou, Shirui Pan, Suhang Wang, Yao Ma\
 [Diagnosing and Addressing Pitfalls in KG-RAG Datasets: Toward More Reliable Benchmarking.](https://arxiv.org/pdf/2505.23495)\
 The Thirty-Ninth Annual Conference on Neural Information Processing Systems (NeurIPS 2025)

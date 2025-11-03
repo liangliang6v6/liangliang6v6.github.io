@@ -18,6 +18,8 @@ Hey! I'm Liangliang Zhang, a Ph.D. student of Computer Science at [Rensselaer Po
 
 ## News
 
+- [10/2025] Check our preprint on [From Factoid Questions to Data Product Requests: Benchmarking Data Product Discovery over Tables and Text](https://arxiv.org/pdf/2510.21737).
+
 - [09/2025] Our paper [Diagnosing and Addressing Pitfalls in KG-RAG Datasets: Toward More Reliable Benchmarking](https://arxiv.org/pdf/2505.23495) is accepted by the Thirty-Ninth Annual Conference on Neural Information Processing Systems (NeurIPS 2025).
 
 - [05/2025] Check our preprint on [Diagnosing and Addressing Pitfalls in KG-RAG Datasets: Toward More Reliable Benchmarking](https://arxiv.org/pdf/2505.23495).
