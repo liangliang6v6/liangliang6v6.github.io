@@ -18,7 +18,7 @@ Hey! I'm Liangliang Zhang, a Ph.D. student of Computer Science at [Rensselaer Po
 
 ## News
 
-- [11/2025] Our proposal is accepted by [WSDM 2026](https://wsdm-conference.org/2026/) Doctoral Consortium.
+- [11/2025] Our proposal [Planning Before Retrieval: A Constrained Planner-Executor Framework for Reliable and Efficient KG-Augmented Reasoning](https://dl.acm.org/doi/abs/10.1145/3773966.3784985) is accepted by [WSDM 2026](https://wsdm-conference.org/2026/).
 
 - [10/2025] Check our preprint on [From Factoid Questions to Data Product Requests: Benchmarking Data Product Discovery over Tables and Text](https://arxiv.org/pdf/2510.21737).
 
