@@ -6,6 +6,10 @@ permalink: /research/
 
 ## Publications and Preprints
 
+**Liangliang Zhang**, Yao Ma\
+[Planning Before Retrieval: A Constrained Planner-Executor Framework for Reliable and Efficient KG-Augmented Reasoning.](https://dl.acm.org/doi/abs/10.1145/3773966.3784985)\
+The Seventeenth ACM International Conference on Web Search and Data Mining (WSDM 2026)
+
 **Liangliang Zhang**, Nandana Mihindukulasooriya, Niharika S. D'Souza, Sola Shirai, Sarthak Dash, Yao Ma, Horst Samulowitz\
 [From Factoid Questions to Data Product Requests: Benchmarking Data Product Discovery over Tables and Text.](https://arxiv.org/pdf/2510.21737)\
 arXiv:2510.21737
@@ -28,11 +32,11 @@ Tianyi Zhao, **Liangliang Zhang**, Yao Ma, Lu Cheng\
 
 ## Awards
 
-- KDD2024 Student Travel Award
+- Best Doctoral Consortium Presentation Award, WSDM 2026 (Feb 2026)
+- WSDM 2026 Student Travel Award (Feb 2026)
+- KDD 2024 Student Travel Award (Jun 2024)
+- Academic Year Scholarship x 4, School of Computer Science, Central South University
 
-## Volunteering
-
-- ACM KDD 2024 | Barcelona, Spain
 
 ## Hosting Websites
 
