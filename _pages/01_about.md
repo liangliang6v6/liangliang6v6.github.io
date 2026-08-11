@@ -15,9 +15,7 @@ Hey! I'm Liangliang Zhang, a Ph.D. student of Computer Science at [Rensselaer Po
 - Machine Learning with Graphs, Graph Neural Networks
 - Data-Centric AI, Data Condensation
 
-### Paper Reviewer
 
-- [NeurIPS 2026](https://neurips.cc/)
 
 ## News
 
