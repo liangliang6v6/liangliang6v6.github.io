@@ -1,28 +1,241 @@
 ---
 layout: default
 ---
-<div class="bio">
-  <img src="{{ 'assets/img/profile.jpg' | prepend: site.baseurl }}" alt="Profile Photo" class="profile-photo">
-  <div class="bio-content">
-    <h2>Hi! I'm Liangliang Zhang (张靓靓)</h2>
+<section class="hero" id="top">
+  <div class="hero-copy">
+    <p class="eyebrow">Ph.D. Candidate in Computer Science · Applied AI Research</p>
+    <h1>Liangliang Zhang</h1>
+    <p class="hero-summary">
+      I build reliable AI systems with large language models, knowledge graphs, and graph machine learning.
+      My work combines rigorous evaluation with practical problem framing for trustworthy, real-world AI applications.
+    </p>
+    <div class="hero-actions">
+      <a class="button button-primary" href="{{ '/assets/pdf/CV.pdf' | prepend: site.baseurl }}" target="_blank" rel="noopener noreferrer">View CV</a>
+      <a class="button button-secondary" href="mailto:{{ site.email }}">Contact</a>
+    </div>
+    <ul class="link-list">
+      <li><a href="https://www.linkedin.com/in/liangliang-zhang-9a4b19239/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+      <li><a href="https://scholar.google.com/citations?user=IKJj0iMAAAAJ&hl=en&oi=sra" target="_blank" rel="noopener noreferrer">Google Scholar</a></li>
+      <li><a href="https://github.com/liangliang6v6" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+    </ul>
+  </div>
+  <div class="hero-card">
+    <img src="{{ 'assets/img/profile.jpg' | prepend: site.baseurl }}" alt="Portrait of Liangliang Zhang" class="profile-photo">
+    <dl class="profile-meta">
+      <div>
+        <dt>Current role</dt>
+        <dd>Ph.D. Candidate, RPI</dd>
+      </div>
+      <div>
+        <dt>Research areas</dt>
+        <dd>LLMs, knowledge graphs, graph ML</dd>
+      </div>
+      <div>
+        <dt>Industry research</dt>
+        <dd>IBM Research Intern, 2025 and 2026</dd>
+      </div>
+    </dl>
+  </div>
+</section>
+
+<section class="section" id="about">
+  <div class="section-heading">
+    <p class="section-label">About</p>
+    <h2>Researcher focused on reliable, practical AI</h2>
+  </div>
+  <div class="content-grid two-column">
     <p>
-      Welcome to my corner of the AI universe! 🪐<br>
-      I'm Liangliang Zhang, a dedicated Ph.D. student in Computer Science at 
-      <a href="https://www.rpi.edu/">Rensselaer Polytechnic Institute (RPI)</a>, where I have the privilege of being guided by 
-      <a href="https://yaoma24.github.io/">Prof. Yao Ma</a>. Join me on an exciting journey exploring large language models, knowledge graphs, graph neural networks, data-centric machine learning.
-    <p>
-      Check and download my CV at <a href="{{ '/assets/pdf/CV.pdf' | prepend: site.baseurl }}" target="_blank" rel="noopener noreferrer">here</a> (PDF).
+      I am a Ph.D. student in Computer Science at <a href="https://www.rpi.edu/" target="_blank" rel="noopener noreferrer">Rensselaer Polytechnic Institute</a>,
+      advised by <a href="https://yaoma24.github.io/" target="_blank" rel="noopener noreferrer">Prof. Yao Ma</a>. I previously earned my bachelor's degree in
+      Software Engineering from <a href="https://en.csu.edu.cn/" target="_blank" rel="noopener noreferrer">Central South University</a>.
     </p>
     <p>
-      <a href="https://www.linkedin.com/in/liangliang-zhang-9a4b19239/" target="_blank" rel="noopener noreferrer">
-        <i class="fab fa-linkedin"></i> LinkedIn
-      </a> &nbsp;|&nbsp;
-      <a href="https://scholar.google.com/citations?user=IKJj0iMAAAAJ&hl=en&oi=sra" target="_blank" rel="noopener noreferrer">
-        <i class="ai ai-google-scholar"></i> Google Scholar
-      </a> &nbsp;|&nbsp;
-      <a href="https://github.com/liangliang6v6" target="_blank" rel="noopener noreferrer">
-        <i class="fab fa-github"></i> GitHub
-      </a>
+      I bring research experience that translates directly to applied AI and machine learning roles: problem framing,
+      experimental design, model evaluation, and clear technical communication. I am interested in conversations about
+      research scientist, applied scientist, and machine learning engineering opportunities.
     </p>
   </div>
-</div>
+</section>
+
+<section class="section" id="expertise">
+  <div class="section-heading">
+    <p class="section-label">Expertise</p>
+    <h2>Core areas</h2>
+  </div>
+  <div class="card-grid">
+    <article class="info-card">
+      <h3>Large Language Models</h3>
+      <p>Grounded reasoning, retrieval-augmented generation, and planning for more reliable language model behavior.</p>
+    </article>
+    <article class="info-card">
+      <h3>Knowledge Graphs</h3>
+      <p>Knowledge grounding, structured retrieval, and benchmark design for robust AI systems.</p>
+    </article>
+    <article class="info-card">
+      <h3>Graph Machine Learning</h3>
+      <p>Graph neural networks, graph condensation, and scalable representation learning.</p>
+    </article>
+    <article class="info-card">
+      <h3>Data-Centric AI</h3>
+      <p>Dataset diagnosis, benchmarking, and evaluation methods that improve reliability and decision quality.</p>
+    </article>
+  </div>
+</section>
+
+<section class="section constellation-section" id="constellation">
+  <div class="section-heading constellation-heading">
+    <div>
+      <p class="section-label">Working Map</p>
+      <h2>A global view of how I think</h2>
+    </div>
+    <p class="section-intro">Research is the center of my work. Curiosity outside the lab keeps the perspective broad.</p>
+  </div>
+  <div class="constellation-shell" data-constellation>
+    <div class="constellation-toolbar" role="group" aria-label="Choose nodes to display">
+      <button class="constellation-filter is-active" type="button" data-constellation-filter="all" aria-pressed="true">All signals</button>
+      <button class="constellation-filter" type="button" data-constellation-filter="research" aria-pressed="false">Research</button>
+      <button class="constellation-filter" type="button" data-constellation-filter="curiosity" aria-pressed="false">Beyond work</button>
+    </div>
+    <div class="constellation-stage">
+      <canvas class="constellation-canvas" aria-label="Interactive map of Liangliang Zhang's research strengths and personal interests" aria-describedby="constellation-description"></canvas>
+      <div class="constellation-copy" id="constellation-description">
+        <p class="constellation-kicker">Interactive field notes</p>
+        <h3>Reliable AI, informed by a curious life.</h3>
+        <p>Choose a signal on the map to explore the ideas and interests that shape my work.</p>
+      </div>
+      <div class="constellation-detail" aria-live="polite">
+        <p class="constellation-detail-type">Selected signal</p>
+        <h3 data-constellation-title>Reliable AI</h3>
+        <p data-constellation-copy>Grounded reasoning and rigorous evaluation are the common thread across my research.</p>
+      </div>
+    </div>
+    <div class="constellation-controls" aria-label="Map signals">
+      <button type="button" class="constellation-control" data-constellation-node="llms"><span>01</span> Large Language Models</button>
+      <button type="button" class="constellation-control" data-constellation-node="knowledge"><span>02</span> Knowledge Graphs</button>
+      <button type="button" class="constellation-control" data-constellation-node="graphs"><span>03</span> Graph ML</button>
+      <button type="button" class="constellation-control" data-constellation-node="data"><span>04</span> Data-Centric AI</button>
+      <button type="button" class="constellation-control constellation-control-curiosity" data-constellation-node="drawing"><span>05</span> Drawing</button>
+      <button type="button" class="constellation-control constellation-control-curiosity" data-constellation-node="reading"><span>06</span> Reading</button>
+      <button type="button" class="constellation-control constellation-control-curiosity" data-constellation-node="film"><span>07</span> New movies</button>
+      <button type="button" class="constellation-control constellation-control-curiosity" data-constellation-node="tennis"><span>08</span> Tennis</button>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="publications">
+  <div class="section-heading">
+    <p class="section-label">Selected Work</p>
+    <h2>Evidence of technical depth</h2>
+  </div>
+  <p class="section-intro">Selected first-author work across reliable retrieval, data discovery, and graph learning. Each link opens the paper directly.</p>
+  <div class="timeline">
+    <article class="timeline-item">
+      <p class="timeline-meta">WSDM 2026</p>
+      <h3>Planning Before Retrieval: A Constrained Planner-Executor Framework for Reliable and Efficient KG-Augmented Reasoning</h3>
+      <p>Liangliang Zhang, Yao Ma</p>
+      <a href="https://dl.acm.org/doi/abs/10.1145/3773966.3784985" target="_blank" rel="noopener noreferrer">Publication link</a>
+    </article>
+    <article class="timeline-item">
+      <p class="timeline-meta">arXiv 2025</p>
+      <h3>From Factoid Questions to Data Product Requests: Benchmarking Data Product Discovery over Tables and Text</h3>
+      <p>Liangliang Zhang, Nandana Mihindukulasooriya, Niharika S. D'Souza, Sola Shirai, Sarthak Dash, Yao Ma, Horst Samulowitz</p>
+      <a href="https://arxiv.org/pdf/2510.21737" target="_blank" rel="noopener noreferrer">Preprint</a>
+    </article>
+    <article class="timeline-item">
+      <p class="timeline-meta">NeurIPS 2025</p>
+      <h3>Diagnosing and Addressing Pitfalls in KG-RAG Datasets: Toward More Reliable Benchmarking</h3>
+      <p>Liangliang Zhang, Zhuorui Jiang, Hongliang Chi, Haoyang Chen, Mohammed Elkoumy, Fali Wang, Qiong Wu, Zhengyi Zhou, Shirui Pan, Suhang Wang, Yao Ma</p>
+      <a href="https://arxiv.org/pdf/2505.23495" target="_blank" rel="noopener noreferrer">Paper</a>
+    </article>
+    <article class="timeline-item">
+      <p class="timeline-meta">TMLR 2025</p>
+      <h3>Extending Graph Condensation to Multi-Label Datasets: A Benchmark Study</h3>
+      <p>Liangliang Zhang, Haoran Bao, Yao Ma</p>
+      <a href="https://openreview.net/pdf?id=7aJxaPg30d" target="_blank" rel="noopener noreferrer">Paper</a>
+    </article>
+  </div>
+</section>
+
+<script src="{{ '/assets/js/constellation.js' | prepend: site.baseurl }}"></script>
+
+<section class="section" id="experience">
+  <div class="section-heading">
+    <p class="section-label">Experience</p>
+    <h2>Research and industry exposure</h2>
+  </div>
+  <div class="card-grid">
+    <article class="info-card">
+      <h3>IBM Research</h3>
+      <p class="card-meta">Summer Research Intern · Yorktown Heights · 2025, 2026</p>
+      <p>Contributed to applied AI research on data product discovery and reliable knowledge-grounded systems. Mentored by Dr. Nandana Mihindukulasooriya during the 2025 internship.</p>
+    </article>
+    <article class="info-card">
+      <h3>Rensselaer Polytechnic Institute</h3>
+      <p class="card-meta">Ph.D. Student · Ongoing</p>
+      <p>Conducting research across LLMs, knowledge graphs, graph learning, and trustworthy evaluation in the DAMI Lab.</p>
+    </article>
+  </div>
+</section>
+
+<section class="section" id="highlights">
+  <div class="section-heading">
+    <p class="section-label">Highlights</p>
+    <h2>Recent milestones</h2>
+  </div>
+  <div class="timeline">
+    <article class="timeline-item">
+      <p class="timeline-meta">May 2026</p>
+      <h3>Returned to IBM Research for a second summer internship</h3>
+      <p>Continued an applied AI research collaboration at IBM Research in Yorktown Heights.</p>
+    </article>
+    <article class="timeline-item">
+      <p class="timeline-meta">February 2026</p>
+      <h3>Best Doctoral Consortium Presentation Award at WSDM 2026</h3>
+      <p>Recognized for research presentation quality and technical contribution.</p>
+    </article>
+    <article class="timeline-item">
+      <p class="timeline-meta">September 2025</p>
+      <h3>Paper accepted to NeurIPS 2025</h3>
+      <p>Published work on diagnosing and improving the reliability of KG-RAG datasets and benchmarks.</p>
+    </article>
+  </div>
+</section>
+
+<section class="section" id="recognition">
+  <div class="section-heading">
+    <p class="section-label">Recognition</p>
+    <h2>Awards and service</h2>
+  </div>
+  <div class="content-grid two-column">
+    <div class="list-card">
+      <h3>Awards</h3>
+      <ul>
+        <li>Best Doctoral Consortium Presentation Award, WSDM 2026</li>
+        <li>WSDM 2026 Student Travel Award</li>
+        <li>KDD 2024 Student Travel Award</li>
+        <li>Academic Year Scholarship, Central South University</li>
+      </ul>
+    </div>
+    <div class="list-card">
+      <h3>Service and leadership</h3>
+      <ul>
+        <li>Reviewer for NeurIPS 2026</li>
+        <li>Co-organizer and contributor to academic workshop and tutorial websites</li>
+        <li>Contributor to DAMI Lab web presence and research communication</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="section section-compact" id="contact">
+  <div class="section-heading">
+    <p class="section-label">Contact</p>
+    <h2>Let&apos;s connect</h2>
+  </div>
+  <p class="contact-copy">
+    Email me at <a href="mailto:{{ site.email }}">{{ site.email }}</a> for research collaborations, research scientist, applied scientist, and machine learning opportunities.
+  </p>
+  <p class="contact-copy">
+    For more detail, visit the full <a href="{{ '/about/' | prepend: site.baseurl }}">About</a>, <a href="{{ '/research/' | prepend: site.baseurl }}">Research</a>, and <a href="{{ '/lab/' | prepend: site.baseurl }}">Lab</a> pages.
+  </p>
+</section>

@@ -1,17 +1,17 @@
-$content-width: 900px;
-$main: #19CCAA;
+$content-width: 1120px;
+$main: #0f766e;
 $font-style: 'Open Sans', sans-serif;
-$font-color: #262626;
-$link-color: #425469;
-$link-hover-color: $main;
+$font-color: #1f2937;
+$link-color: #0f4c5c;
+$link-hover-color: #0b766e;
 $heading-font: 'Muli', sans-serif;
-$heading-font-color: #425469;
-$light: #E7EDF4;
-$header:  #1D1425;
+$heading-font-color: #0f172a;
+$light: #e2e8f0;
+$header: #f8fafc;
 *,
 *::before,
 *::after {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-} 
+}

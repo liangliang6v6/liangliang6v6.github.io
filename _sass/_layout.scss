@@ -2,9 +2,10 @@ body {
 	margin: 0;
 	color: $font-color;
 	font-family: $font-style;
-	font-size: 1.1em;
-	line-height: 1.6;
+	font-size: 1.05em;
+	line-height: 1.7;
 	-webkit-font-smoothing: antialiased;
+	background: linear-gradient(180deg, #f8fafc 0%, #ffffff 22%, #f8fbfc 100%);
 }
 h1,
 h2,
@@ -15,39 +16,29 @@ h3 {
 	line-height: 1.5;
 }
 h1 {
-	color: $main;
-	font-size: 2.5em;
+	color: $heading-font-color;
+	font-size: 3.6em;
 	a,
 	a:visited {
 		text-decoration: none;
-		color: $main;
+		color: $heading-font-color;
 	}
 }
 h2 {
-	font-size: 2em;
+	font-size: 2.2em;
 }
 a,
 a:visited {
 	color: $link-color;
-	text-decoration: underline;
-	font-weight: bold;
+	text-decoration: none;
+	font-weight: 600;
 }
 a:hover {
 	color: $link-hover-color;
 	text-decoration: underline;
 }
-header {
-	background: $header;
-	padding: 0px 15px;
-	text-align: center;
-	margin: 50px 0 0;
-	height: 50vh;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
 main {
-	padding: 0 15px;
+	padding: 96px 20px 0;
 	max-width: $content-width;
 	margin: 0 auto;
 }
@@ -58,82 +49,463 @@ time {
 	max-width: $content-width;
 	margin: 0 auto;
 }
-
-/* Aside */
-
-aside {
-	position: fixed;
+.site-nav {
+	position: sticky;
 	top: 0;
-	left: 0;
-	background: #f3f3f3;
+	background: rgba(248, 250, 252, 0.9);
+	backdrop-filter: blur(14px);
 	width: 100%;
-	z-index: 2;
-	border-bottom: 1px solid lighten($light, 30%);
-	box-shadow: 0px 1px 1px RGBA(4, 25, 54, .1);
+	z-index: 20;
+	border-bottom: 1px solid #dbe3ea;
+	box-shadow: 0 12px 30px rgba(15, 23, 42, 0.04);
 	nav {
-		float: left;
-		max-width: 800px;
-		margin: 0 auto;
+		padding: 0 4px;
 		ul {
 			margin: 0;
 			padding: 0;
 			list-style: none;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			gap: 4px;
 			li {
-				float: left;
-				position: relative;
 				a {
 					text-decoration: none;
 					display: block;
-					padding: 15px;
+					padding: 16px 14px;
 					font-family: 'Muli', sans-serif;
+					font-size: 0.95rem;
 					line-height: 20px;
-					margin-bottom: -1px;
-					box-shadow: 0;
+					border-radius: 999px;
 					&:hover,
 					&:active {
-						background: $font-color;
+						background: #e7eef2;
 						text-decoration: none;
-						color: $main;
+						color: $heading-font-color;
 					}
 				}
 			}
 		}
-		&:after {
-			content: '';
-			display: table;
-			clear: both;
-		}
 	}
 }
 footer {
-	font-family: Georgia, 'Times New Roman', Times, serif;
-	font-style: italic;
+	font-family: $heading-font;
 	text-align: center;
-	padding: 40px;
-	background-color: #fff;
+	padding: 24px 0 48px;
+	color: #64748b;
 }
 
-.bio {
-	margin: 30px auto;
+.hero {
+	display: grid;
+	grid-template-columns: minmax(0, 1.5fr) minmax(260px, 0.8fr);
+	gap: 36px;
+	align-items: center;
+	padding: 40px 0 28px;
+}
+
+.eyebrow,
+.section-label,
+.timeline-meta,
+.card-meta {
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	font-size: 0.78rem;
+	font-weight: 700;
+	color: $main;
+}
+
+.hero-summary {
+	max-width: 720px;
+	font-size: 1.15rem;
+	color: #475569;
+}
+
+.hero-actions {
 	display: flex;
-	align-items: flex-start;
-  }
-  
-  .profile-photo {
-	border-radius: 20%;
-	margin-right: 20px;
-	object-fit: cover;
-	width: 35%; 
-	height: auto;
-  }
-  
-  .bio-content {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-  }
-  
-  .bio-content h2, .bio-content p {
+	flex-wrap: wrap;
+	gap: 14px;
+	margin: 28px 0 20px;
+}
+
+.button {
+	display: inline-block;
+	padding: 12px 18px;
+	border-radius: 999px;
+	transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.button:hover {
+	transform: translateY(-1px);
+	text-decoration: none;
+}
+
+.button-primary,
+.button-primary:visited {
+	background: $heading-font-color;
+	color: #ffffff;
+	box-shadow: 0 10px 30px rgba(15, 23, 42, 0.14);
+}
+
+.button-secondary,
+.button-secondary:visited {
+	background: #e8f2f2;
+	color: $heading-font-color;
+}
+
+.link-list {
+	list-style: none;
+	padding: 0;
 	margin: 0;
-  }
-  
+	display: flex;
+	flex-wrap: wrap;
+	gap: 18px;
+}
+
+.hero-card,
+.info-card,
+.list-card,
+.timeline-item {
+	background: rgba(255, 255, 255, 0.9);
+	border: 1px solid #e2e8f0;
+	border-radius: 24px;
+	box-shadow: 0 18px 50px rgba(15, 23, 42, 0.06);
+}
+
+.hero-card {
+	padding: 24px;
+}
+
+.profile-photo {
+	border-radius: 18px;
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+	margin-bottom: 20px;
+}
+
+.profile-meta {
+	margin: 0;
+}
+
+.profile-meta div + div {
+	margin-top: 14px;
+	padding-top: 14px;
+	border-top: 1px solid #e2e8f0;
+}
+
+.profile-meta dt {
+	font-size: 0.84rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.06em;
+	color: #64748b;
+}
+
+.profile-meta dd {
+	margin: 6px 0 0;
+	color: $heading-font-color;
+}
+
+.section {
+	padding: 44px 0;
+}
+
+.section-compact {
+	padding-bottom: 24px;
+}
+
+.section-heading {
+	margin-bottom: 24px;
+}
+
+.section-intro {
+	max-width: 720px;
+	margin: -8px 0 24px;
+	color: #475569;
+}
+
+.constellation-heading {
+	display: flex;
+	align-items: end;
+	justify-content: space-between;
+	gap: 28px;
+}
+
+.constellation-heading .section-intro {
+	margin: 0;
+	max-width: 420px;
+}
+
+.constellation-shell {
+	border: 1px solid #cbd5e1;
+	border-radius: 28px;
+	overflow: hidden;
+	background: #092a32;
+	box-shadow: 0 24px 60px rgba(15, 23, 42, 0.16);
+}
+
+.constellation-toolbar {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+	padding: 16px 20px;
+	border-bottom: 1px solid rgba(226, 232, 240, 0.16);
+}
+
+.constellation-filter,
+.constellation-control {
+	font: inherit;
+	cursor: pointer;
+}
+
+.constellation-filter {
+	border: 1px solid rgba(226, 232, 240, 0.32);
+	border-radius: 999px;
+	padding: 7px 12px;
+	background: transparent;
+	color: #cbd5e1;
+	font-size: 0.78rem;
+	font-weight: 700;
+	transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+.constellation-filter:hover,
+.constellation-filter.is-active {
+	border-color: #f9d878;
+	background: #f9d878;
+	color: #092a32;
+}
+
+.constellation-stage {
+	position: relative;
+	min-height: 470px;
+	overflow: hidden;
+}
+
+.constellation-canvas {
+	position: absolute;
+	inset: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.constellation-copy,
+.constellation-detail {
+	position: absolute;
+	z-index: 1;
+	max-width: 260px;
+	color: #f8fafc;
+}
+
+.constellation-copy {
+	top: 38px;
+	left: 38px;
+}
+
+.constellation-copy h3,
+.constellation-detail h3 {
+	margin: 0 0 8px;
+	color: #ffffff;
+	font-size: 1.35rem;
+	line-height: 1.25;
+}
+
+.constellation-copy p,
+.constellation-detail p {
+	margin: 0;
+	color: #cbd5e1;
+	font-size: 0.92rem;
+	line-height: 1.55;
+}
+
+.constellation-kicker,
+.constellation-detail-type {
+	margin-bottom: 8px !important;
+	color: #f9d878 !important;
+	font-size: 0.7rem !important;
+	font-weight: 700;
+	letter-spacing: 0.12em;
+	text-transform: uppercase;
+}
+
+.constellation-detail {
+	right: 38px;
+	bottom: 34px;
+	padding: 16px 18px;
+	border: 1px solid rgba(226, 232, 240, 0.2);
+	border-radius: 16px;
+	background: rgba(9, 42, 50, 0.82);
+	backdrop-filter: blur(10px);
+}
+
+.constellation-controls {
+	display: grid;
+	grid-template-columns: repeat(4, minmax(0, 1fr));
+	border-top: 1px solid rgba(226, 232, 240, 0.16);
+}
+
+.constellation-control {
+	min-height: 74px;
+	padding: 14px;
+	border: 0;
+	border-right: 1px solid rgba(226, 232, 240, 0.16);
+	border-bottom: 1px solid rgba(226, 232, 240, 0.16);
+	background: #0d3740;
+	color: #e2e8f0;
+	font-size: 0.82rem;
+	font-weight: 700;
+	text-align: left;
+	transition: background 0.2s ease, color 0.2s ease;
+}
+
+.constellation-control:nth-child(4n) {
+	border-right: 0;
+}
+
+.constellation-control span {
+	display: block;
+	margin-bottom: 4px;
+	color: #6ee7d4;
+	font-size: 0.67rem;
+	letter-spacing: 0.1em;
+}
+
+.constellation-control:hover,
+.constellation-control:focus-visible,
+.constellation-control.is-active {
+	background: #15505a;
+	color: #ffffff;
+	outline: 0;
+}
+
+.constellation-control-curiosity span {
+	color: #f9d878;
+}
+
+.section-heading h2,
+.info-card h3,
+.list-card h3,
+.timeline-item h3 {
+	margin-top: 0;
+}
+
+.content-grid.two-column,
+.card-grid {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	gap: 20px;
+}
+
+.info-card,
+.list-card,
+.timeline-item {
+	padding: 24px;
+}
+
+.timeline {
+	display: grid;
+	gap: 18px;
+}
+
+.timeline-item p:last-child,
+.info-card p:last-child,
+.list-card ul {
+	margin-bottom: 0;
+}
+
+.list-card ul {
+	padding-left: 18px;
+}
+
+.contact-copy {
+	font-size: 1.08rem;
+}
+
+@media (max-width: 860px) {
+	h1 {
+		font-size: 2.8em;
+	}
+
+	main {
+		padding-top: 84px;
+	}
+
+	.hero,
+	.content-grid.two-column,
+	.card-grid {
+		grid-template-columns: 1fr;
+	}
+
+	.constellation-heading {
+		align-items: start;
+		flex-direction: column;
+		gap: 10px;
+	}
+
+	.constellation-controls {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+	}
+
+	.constellation-control:nth-child(4n) {
+		border-right: 1px solid rgba(226, 232, 240, 0.16);
+	}
+
+	.constellation-control:nth-child(2n) {
+		border-right: 0;
+	}
+}
+
+@media (max-width: 560px) {
+	main {
+		padding-left: 16px;
+		padding-right: 16px;
+	}
+
+	h1 {
+		font-size: 2.3em;
+	}
+
+	h2 {
+		font-size: 1.8em;
+	}
+
+	.site-nav nav ul {
+		justify-content: flex-start;
+		overflow-x: auto;
+		flex-wrap: nowrap;
+		padding: 0 0 0 4px;
+	}
+
+	.hero-card,
+	.info-card,
+	.list-card,
+	.timeline-item {
+		border-radius: 20px;
+	}
+
+	.constellation-shell {
+		border-radius: 20px;
+	}
+
+	.constellation-stage {
+		min-height: 420px;
+	}
+
+	.constellation-copy {
+		top: 26px;
+		left: 24px;
+		max-width: 220px;
+	}
+
+	.constellation-detail {
+		right: 18px;
+		bottom: 18px;
+		left: 18px;
+		max-width: none;
+	}
+
+	.constellation-control {
+		min-height: 66px;
+		padding: 11px;
+	}
+}
