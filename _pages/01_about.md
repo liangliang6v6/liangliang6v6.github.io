@@ -8,7 +8,13 @@ I am Liangliang Zhang (张靓靓), a Ph.D. candidate in Computer Science at [Ren
 
 My Ph.D. research focuses on **reliable retrieval-augmented generation (RAG)**. The central question guiding my work is: when a large language model relies on external evidence, how can we ensure that its retrieval and reasoning are sufficient, relevant, and trustworthy? I study retrieval planning, knowledge-graph grounding, graph machine learning, and data-centric evaluation to build AI systems whose answers can be inspected and evaluated rigorously in realistic settings.
 
-**Professional links:** [CV](../assets/pdf/CV.pdf) | [LinkedIn](https://www.linkedin.com/in/liangliang-zhang-9a4b19239/) | [Google Scholar](https://scholar.google.com/citations?user=IKJj0iMAAAAJ&hl=en&oi=sra) | [GitHub](https://github.com/liangliang6v6)
+<nav class="professional-links" aria-label="Professional links">
+  <strong>Professional links</strong>
+  <a href="{{ '/assets/pdf/CV.pdf' | prepend: site.baseurl }}" target="_blank" rel="noopener noreferrer">CV</a>
+  <a href="https://www.linkedin.com/in/liangliang-zhang-9a4b19239/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+  <a href="https://scholar.google.com/citations?user=IKJj0iMAAAAJ&amp;hl=en&amp;oi=sra" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+  <a href="https://github.com/liangliang6v6" target="_blank" rel="noopener noreferrer">GitHub</a>
+</nav>
 
 ## Research Interests
 
@@ -22,12 +28,12 @@ My Ph.D. research focuses on **reliable retrieval-augmented generation (RAG)**. 
 **IBM Research, Yorktown Heights**<br>
 Returning Summer Research Intern, 2026
 
-Returning to IBM Research for a second summer internship, continuing applied AI research on reliable knowledge-grounded systems.
+Returning to IBM Research for a second summer internship with the same collaboration team. I developed AGENTICTT, an adaptive retrieval-and-reasoning framework for table-text question answering, submitted to AAAI 2027.
 
 **IBM Research, Yorktown Heights**<br>
 Summer Research Intern, 2025
 
-I contributed to applied AI research on data product discovery and reliable knowledge-grounded systems. During the 2025 internship, I was mentored by [Dr. Nandana Mihindukulasooriya](https://www.linkedin.com/in/nandanamihindu/).
+With the same collaboration team, I submitted a manuscript on data product discovery over tables and text; the arXiv version is forthcoming. During the 2025 internship, I was mentored by [Dr. Nandana Mihindukulasooriya](https://www.linkedin.com/in/nandanamihindu/).
 
 **Data Analytics and Machine Intelligence Lab, RPI**<br>
 Ph.D. Researcher
@@ -41,6 +47,18 @@ Ph.D. in Computer Science, ongoing
 
 **Central South University**<br>
 Bachelor's degree in Software Engineering
+
+## Service, Awards, and Community
+
+- Reviewer, [NeurIPS 2026](https://neurips.cc/)
+- Best Doctoral Consortium Presentation Award, WSDM 2026
+- WSDM 2026 Student Travel Award
+- KDD 2024 Student Travel Award
+- Academic Year Scholarship x4, School of Computer Science, Central South University
+- [KDD'24 Safe Multi-Modal Machine Learning Tutorial](https://sites.google.com/view/kdd-tutorial/safe-multi-modal)
+- [WWW'24 Data-centric Artificial Intelligence Workshop](https://dcai-workshop.github.io/)
+- [SDM'24 Data Science for Smart Manufacturing and Healthcare Workshop](https://dssmh.github.io/)
+- [Data Analytics and Machine Intelligence Lab](https://dami-lab.github.io/)
 
 
 
