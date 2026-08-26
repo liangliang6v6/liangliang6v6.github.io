@@ -3,11 +3,11 @@ layout: default
 ---
 <section class="hero" id="top">
   <div class="hero-copy">
-    <p class="eyebrow">Ph.D. Candidate in Computer Science · Applied AI Research</p>
-    <h1>Liangliang Zhang</h1>
+    <p class="eyebrow">Ph.D. Candidate in Computer Science · Reliable RAG</p>
+    <h1>Liangliang Zhang <span class="name-chinese" lang="zh-CN">张靓靓</span></h1>
     <p class="hero-summary">
-      I am excited by the challenge of making AI systems more reliable, useful, and understandable.
-      My research brings together large language models, knowledge graphs, graph machine learning, and rigorous evaluation for real-world AI applications.
+      My Ph.D. research asks a practical question: when a large language model uses external evidence, how can we make its answer reliable?
+      I study retrieval, planning, knowledge graphs, and evaluation to build RAG systems that are grounded, efficient, and trustworthy.
     </p>
     <div class="hero-actions">
       <a class="button button-primary" href="{{ '/assets/pdf/CV.pdf' | prepend: site.baseurl }}" target="_blank" rel="noopener noreferrer">View CV</a>
@@ -29,25 +29,31 @@ layout: default
       </div>
       <div>
         <dt>Research areas</dt>
-        <dd>LLMs, knowledge graphs, graph ML</dd>
+        <dd>Reliable RAG, knowledge graphs, graph ML</dd>
       </div>
       <div>
         <dt>Industry research</dt>
-        <dd>IBM Research Intern, 2025 and 2026</dd>
+        <dd>IBM Research Intern, 2025; returning in 2026</dd>
       </div>
     </dl>
   </div>
 </section>
 
+<section class="research-question" aria-labelledby="big-question-title">
+  <p class="section-label">The big question</p>
+  <h2 id="big-question-title">How can an LLM know that the evidence behind its answer is sufficient, relevant, and trustworthy?</h2>
+  <p>Reliable RAG needs more than retrieving documents. My work investigates explicit retrieval planning, knowledge-graph structure, and dependable benchmarks so systems can ground their answers in evidence that can be inspected and evaluated.</p>
+</section>
+
 <section class="section" id="expertise">
   <div class="section-heading">
     <p class="section-label">Expertise</p>
-    <h2>Research areas</h2>
+    <h2>Reliable RAG and supporting areas</h2>
   </div>
   <div class="card-grid">
     <article class="info-card">
-      <h3>Large Language Models</h3>
-      <p>Grounded reasoning, retrieval-augmented generation, and planning for more reliable language model behavior.</p>
+      <h3>Reliable RAG</h3>
+      <p>Retrieval planning, grounded reasoning, and evidence-aware generation for more dependable LLM behavior.</p>
     </article>
     <article class="info-card">
       <h3>Knowledge Graphs</h3>
@@ -58,8 +64,34 @@ layout: default
       <p>Graph neural networks, graph condensation, and scalable representation learning.</p>
     </article>
     <article class="info-card">
-      <h3>Data-Centric AI</h3>
-      <p>Dataset diagnosis, benchmarking, and evaluation methods that improve reliability and decision quality.</p>
+      <h3>Evaluation and Data</h3>
+      <p>Dataset diagnosis, benchmarking, and evaluation methods that make RAG claims more reliable and actionable.</p>
+    </article>
+  </div>
+</section>
+
+<section class="section" id="experience">
+  <div class="section-heading">
+    <p class="section-label">Internships</p>
+    <h2>Industry research experience</h2>
+  </div>
+  <div class="card-grid">
+    <article class="info-card internship-card">
+      <p class="company-name">IBM Research</p>
+      <h3>Returning Summer Research Intern</h3>
+      <p class="card-meta">Yorktown Heights · Summer 2026</p>
+      <p>Returning to IBM Research for a second summer internship, continuing applied AI research on reliable knowledge-grounded systems.</p>
+    </article>
+    <article class="info-card internship-card">
+      <p class="company-name">IBM Research</p>
+      <h3>Summer Research Intern</h3>
+      <p class="card-meta">Yorktown Heights · Summer 2025</p>
+      <p>Contributed to data product discovery and reliable knowledge-grounded systems research, mentored by Dr. Nandana Mihindukulasooriya.</p>
+    </article>
+    <article class="info-card">
+      <h3>Rensselaer Polytechnic Institute</h3>
+      <p class="card-meta">Ph.D. Student · Ongoing</p>
+      <p>Conducting Ph.D. research on reliable RAG, knowledge graphs, graph learning, and trustworthy evaluation in the DAMI Lab.</p>
     </article>
   </div>
 </section>
@@ -69,7 +101,7 @@ layout: default
     <p class="section-label">Publications</p>
     <h2>Selected publications</h2>
   </div>
-  <p class="section-intro">Selected first-author work. See the <a href="{{ '/research/' | prepend: site.baseurl }}">full publication list</a> for all papers and academic service.</p>
+  <p class="section-intro">Selected first-author work on reliable RAG, data discovery, and graph learning. See the <a href="{{ '/research/' | prepend: site.baseurl }}">full publication list</a> for all papers and academic service.</p>
   <div class="timeline">
     <article class="timeline-item">
       <p class="timeline-meta">WSDM 2026</p>
@@ -94,25 +126,6 @@ layout: default
       <h3>Extending Graph Condensation to Multi-Label Datasets: A Benchmark Study</h3>
       <p>Liangliang Zhang, Haoran Bao, Yao Ma</p>
       <a href="https://openreview.net/pdf?id=7aJxaPg30d" target="_blank" rel="noopener noreferrer">Paper</a>
-    </article>
-  </div>
-</section>
-
-<section class="section" id="experience">
-  <div class="section-heading">
-    <p class="section-label">Experience</p>
-    <h2>Research and industry exposure</h2>
-  </div>
-  <div class="card-grid">
-    <article class="info-card">
-      <h3>IBM Research</h3>
-      <p class="card-meta">Summer Research Intern · Yorktown Heights · 2025, 2026</p>
-      <p>Contributed to applied AI research on data product discovery and reliable knowledge-grounded systems. Mentored by Dr. Nandana Mihindukulasooriya during the 2025 internship.</p>
-    </article>
-    <article class="info-card">
-      <h3>Rensselaer Polytechnic Institute</h3>
-      <p class="card-meta">Ph.D. Student · Ongoing</p>
-      <p>Conducting research across LLMs, knowledge graphs, graph learning, and trustworthy evaluation in the DAMI Lab.</p>
     </article>
   </div>
 </section>

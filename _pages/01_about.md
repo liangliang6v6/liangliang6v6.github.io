@@ -4,29 +4,35 @@ title: About
 permalink: /about/
 ---
 
-I am a Ph.D. candidate in Computer Science at [Rensselaer Polytechnic Institute (RPI)](https://www.rpi.edu/), advised by [Prof. Yao Ma](https://yaoma24.github.io/). I received my bachelor's degree in Software Engineering from [Central South University (CSU)](https://en.csu.edu.cn/).
+I am Liangliang Zhang (张靓靓), a Ph.D. candidate in Computer Science at [Rensselaer Polytechnic Institute (RPI)](https://www.rpi.edu/), advised by [Prof. Yao Ma](https://yaoma24.github.io/). I received my bachelor's degree in Software Engineering from [Central South University (CSU)](https://en.csu.edu.cn/).
 
-My research develops reliable AI systems with large language models, knowledge graphs, graph machine learning, and data-centric evaluation. I am particularly interested in systems that can ground their reasoning in structured evidence and be evaluated rigorously in realistic settings.
+My Ph.D. research focuses on **reliable retrieval-augmented generation (RAG)**. The central question guiding my work is: when a large language model relies on external evidence, how can we ensure that its retrieval and reasoning are sufficient, relevant, and trustworthy? I study retrieval planning, knowledge-graph grounding, graph machine learning, and data-centric evaluation to build AI systems whose answers can be inspected and evaluated rigorously in realistic settings.
 
 **Professional links:** [CV](../assets/pdf/CV.pdf) | [LinkedIn](https://www.linkedin.com/in/liangliang-zhang-9a4b19239/) | [Google Scholar](https://scholar.google.com/citations?user=IKJj0iMAAAAJ&hl=en&oi=sra) | [GitHub](https://github.com/liangliang6v6)
 
 ## Research Interests
 
-- Reliable Knowledge Grounding for LLMs
+- Reliable RAG and Knowledge Grounding for LLMs
+- Retrieval Planning and Knowledge-Graph-Augmented Reasoning
 - Machine Learning with Graphs, Graph Neural Networks
-- Data-Centric AI, Data Condensation
+- Data-Centric AI, Benchmarking, and Data Condensation
 
 ## Experience
 
 **IBM Research, Yorktown Heights**<br>
-Summer Research Intern, 2025 and 2026
+Returning Summer Research Intern, 2026
+
+Returning to IBM Research for a second summer internship, continuing applied AI research on reliable knowledge-grounded systems.
+
+**IBM Research, Yorktown Heights**<br>
+Summer Research Intern, 2025
 
 I contributed to applied AI research on data product discovery and reliable knowledge-grounded systems. During the 2025 internship, I was mentored by [Dr. Nandana Mihindukulasooriya](https://www.linkedin.com/in/nandanamihindu/).
 
 **Data Analytics and Machine Intelligence Lab, RPI**<br>
 Ph.D. Researcher
 
-I conduct research on LLM reasoning, knowledge graphs, graph learning, and trustworthy evaluation with the DAMI Lab.
+I conduct research on reliable RAG, LLM reasoning, knowledge graphs, graph learning, and trustworthy evaluation with the DAMI Lab.
 
 ## Education
 

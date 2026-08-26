@@ -155,6 +155,35 @@ footer {
 	color: #334155;
 }
 
+.name-chinese {
+	white-space: nowrap;
+	font-family: 'Source Serif 4', 'Songti SC', serif;
+	font-size: 0.55em;
+	font-weight: 400;
+	color: #475569;
+}
+
+.research-question {
+	max-width: 850px;
+	margin: 28px 0 56px;
+	padding: 28px 32px;
+	border-left: 4px solid $main;
+	background: #f0f7f6;
+}
+
+.research-question h2 {
+	max-width: 780px;
+	margin: 8px 0 14px;
+	font-size: clamp(1.45rem, 2.8vw, 2rem);
+	line-height: 1.45;
+}
+
+.research-question p:last-child {
+	max-width: 760px;
+	margin-bottom: 0;
+	color: #334155;
+}
+
 .hero-actions {
 	display: flex;
 	flex-wrap: wrap;
@@ -205,6 +234,23 @@ footer {
 	border: 1px solid #e2e8f0;
 	border-radius: 10px;
 	box-shadow: 0 8px 22px rgba(15, 23, 42, 0.05);
+}
+
+.company-name {
+	margin: 0 0 16px;
+	font-family: 'Source Sans 3', sans-serif;
+	font-size: 1.25rem;
+	font-weight: 700;
+	letter-spacing: 0.08em;
+	color: #0f62fe;
+}
+
+.internship-card {
+	border-top: 3px solid #0f62fe;
+}
+
+.internship-card h3 {
+	margin-top: 0;
 }
 
 .hero-card {
@@ -417,6 +463,11 @@ footer {
 	.list-card,
 	.timeline-item {
 		border-radius: 8px;
+	}
+
+	.research-question {
+		margin-bottom: 40px;
+		padding: 24px 20px;
 	}
 
 }

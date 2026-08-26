@@ -4,7 +4,7 @@ title: Publications
 permalink: /research/
 ---
 
-Publications in reverse chronological order. For a complete and current record, visit my [Google Scholar profile](https://scholar.google.com/citations?user=IKJj0iMAAAAJ&hl=en&oi=sra).
+This page contains my complete publication record in reverse chronological order. My current Ph.D. work centers on **reliable retrieval-augmented generation (RAG)**: making retrieval, evidence grounding, and evaluation dependable enough for LLM systems to be trusted. For the most current citation record, visit my [Google Scholar profile](https://scholar.google.com/citations?user=IKJj0iMAAAAJ&hl=en&oi=sra).
 
 <section class="publication-year">
   <h2>2026</h2>
@@ -12,7 +12,7 @@ Publications in reverse chronological order. For a complete and current record, 
     <li class="publication-entry">
       <h3>Planning Before Retrieval: A Constrained Planner-Executor Framework for Reliable and Efficient KG-Augmented Reasoning</h3>
       <p class="publication-authors"><strong>Liangliang Zhang</strong>, Yao Ma</p>
-      <p class="publication-venue">The Seventeenth ACM International Conference on Web Search and Data Mining (WSDM), 2026</p>
+      <p class="publication-venue">The Nineteenth ACM International Conference on Web Search and Data Mining (WSDM), 2026</p>
       <p class="publication-links"><a href="https://dl.acm.org/doi/abs/10.1145/3773966.3784985">Publication</a></p>
       <p class="publication-summary">A planner-executor framework for improving the reliability and efficiency of knowledge-graph-augmented reasoning.</p>
     </li>
