@@ -4,8 +4,6 @@ title: Publications
 permalink: /research/
 ---
 
-## Publications
-
 Publications in reverse chronological order. For a complete and current record, visit my [Google Scholar profile](https://scholar.google.com/citations?user=IKJj0iMAAAAJ&hl=en&oi=sra).
 
 <section class="publication-year">

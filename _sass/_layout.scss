@@ -276,97 +276,6 @@ footer {
 	color: #475569;
 }
 
-.profile-link {
-	margin: 24px 0 0;
-}
-
-.evidence-card {
-	border-top: 3px solid #6ee7d4;
-}
-
-.constellation-heading {
-	display: flex;
-	align-items: end;
-	justify-content: space-between;
-	gap: 28px;
-}
-
-.constellation-heading .section-intro {
-	margin: 0;
-	max-width: 420px;
-}
-
-.constellation-shell {
-	border: 1px solid #cbd5e1;
-	border-radius: 28px;
-	overflow: hidden;
-	background: #092a32;
-	box-shadow: 0 24px 60px rgba(15, 23, 42, 0.16);
-}
-
-.constellation-stage {
-	position: relative;
-	min-height: 470px;
-	overflow: hidden;
-}
-
-.constellation-canvas {
-	position: absolute;
-	inset: 0;
-	width: 100%;
-	height: 100%;
-}
-
-.constellation-copy,
-.constellation-detail {
-	position: absolute;
-	z-index: 1;
-	max-width: 260px;
-	color: #f8fafc;
-}
-
-.constellation-copy {
-	top: 38px;
-	left: 38px;
-}
-
-.constellation-copy h3,
-.constellation-detail h3 {
-	margin: 0 0 8px;
-	color: #ffffff;
-	font-size: 1.35rem;
-	line-height: 1.25;
-}
-
-.constellation-copy p,
-.constellation-detail p {
-	margin: 0;
-	color: #cbd5e1;
-	font-size: 0.92rem;
-	line-height: 1.55;
-}
-
-.constellation-kicker,
-.constellation-detail-type {
-	margin-bottom: 8px !important;
-	color: #f9d878 !important;
-	font-size: 0.7rem !important;
-	font-weight: 700;
-	letter-spacing: 0.12em;
-	text-transform: uppercase;
-}
-
-.constellation-detail {
-	right: 38px;
-	bottom: 34px;
-	padding: 16px 18px;
-	border: 1px solid rgba(226, 232, 240, 0.2);
-	border-radius: 16px;
-	background: rgba(9, 42, 50, 0.82);
-	backdrop-filter: blur(10px);
-}
-
-
 .section-heading h2,
 .info-card h3,
 .list-card h3,
@@ -480,12 +389,6 @@ footer {
 		grid-template-columns: 1fr;
 	}
 
-	.constellation-heading {
-		align-items: start;
-		flex-direction: column;
-		gap: 10px;
-	}
-
 }
 
 @media (max-width: 560px) {
@@ -514,27 +417,6 @@ footer {
 	.list-card,
 	.timeline-item {
 		border-radius: 8px;
-	}
-
-	.constellation-shell {
-		border-radius: 20px;
-	}
-
-	.constellation-stage {
-		min-height: 420px;
-	}
-
-	.constellation-copy {
-		top: 26px;
-		left: 24px;
-		max-width: 220px;
-	}
-
-	.constellation-detail {
-		right: 18px;
-		bottom: 18px;
-		left: 18px;
-		max-width: none;
 	}
 
 }
