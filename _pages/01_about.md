@@ -28,12 +28,16 @@ My Ph.D. research focuses on **reliable retrieval-augmented generation (RAG)**. 
 **IBM Research, Yorktown Heights**<br>
 Returning Summer Research Intern, 2026
 
-Returning to IBM Research for a second summer internship with the same collaboration team. I developed AGENTICTT, an adaptive retrieval-and-reasoning framework for table-text question answering, submitted to AAAI 2027.
+Returning to IBM Research for a second summer internship with the same collaboration team. I developed AGENTICTT, an adaptive retrieval-and-reasoning framework for table-text question answering.
+
+**Output:** *Adaptive Agentic Retrieval and Reasoning for Table-Text QA*, submitted to AAAI 2027; arXiv preprint forthcoming.
 
 **IBM Research, Yorktown Heights**<br>
 Summer Research Intern, 2025
 
-With the same collaboration team, I submitted a manuscript on data product discovery over tables and text; the arXiv version is forthcoming. During the 2025 internship, I was mentored by [Dr. Nandana Mihindukulasooriya](https://www.linkedin.com/in/nandanamihindu/).
+With the same collaboration team, I developed a benchmark for data product discovery over tables and text. During the 2025 internship, I was mentored by [Dr. Nandana Mihindukulasooriya](https://www.linkedin.com/in/nandanamihindu/).
+
+**Output:** [*From Factoid Questions to Data Product Requests: Benchmarking Data Product Discovery over Tables and Text*](https://arxiv.org/pdf/2510.21737), arXiv:2510.21737.
 
 **Data Analytics and Machine Intelligence Lab, RPI**<br>
 Ph.D. Researcher

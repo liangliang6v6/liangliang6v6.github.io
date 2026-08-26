@@ -10,8 +10,8 @@ Publications in reverse chronological order. For the most current citation recor
   <li class="publication-entry">
     <h3>Adaptive Agentic Retrieval and Reasoning for Table-Text QA</h3>
     <p class="publication-authors"><strong>Liangliang Zhang</strong>, Nandana Mihindukulasooriya, Niharika S. D'Souza, Sola Shirai, Yao Ma, Horst Samulowitz</p>
-    <p class="publication-venue">AAAI 2027 conference submission, under review, 2026</p>
-    <p class="publication-links"><a href="https://openreview.net/forum?id=C16JXxE6Iw">OpenReview</a></p>
+    <p class="publication-venue">AAAI 2027 conference submission, under review; arXiv preprint forthcoming, 2026</p>
+    <p class="publication-links"><a href="https://openreview.net/forum?id=C16JXxE6Iw">OpenReview</a> · Preprint forthcoming</p>
   </li>
   <li class="publication-entry">
     <h3>Planning Before Retrieval: A Constrained Planner-Executor Framework for Reliable and Efficient KG-Augmented Reasoning</h3>
@@ -22,8 +22,8 @@ Publications in reverse chronological order. For the most current citation recor
   <li class="publication-entry">
     <h3>From Factoid Questions to Data Product Requests: Benchmarking Data Product Discovery over Tables and Text</h3>
     <p class="publication-authors"><strong>Liangliang Zhang</strong>, Nandana Mihindukulasooriya, Niharika S. D'Souza, Sola Shirai, Sarthak Dash, Yao Ma, Horst Samulowitz</p>
-    <p class="publication-venue">Manuscript under submission; arXiv preprint forthcoming, 2025</p>
-    <p class="publication-links">Preprint forthcoming</p>
+    <p class="publication-venue">arXiv preprint arXiv:2510.21737, 2025</p>
+    <p class="publication-links"><a href="https://arxiv.org/pdf/2510.21737">arXiv</a></p>
   </li>
   <li class="publication-entry">
     <h3>Diagnosing and Addressing Pitfalls in KG-RAG Datasets: Toward More Reliable Benchmarking</h3>
