@@ -3,8 +3,16 @@ layout: page
 title: DAMI Lab
 permalink: /lab/
 ---
-## Welcome to the My Lab
+## Data Analytics and Machine Intelligence Lab
 
-We are the [Data Analytics and Machine Intelligence (DAMI)](https://dami-lab.github.io/) Lab at the [Rensselaer Polytechnic Institute](https://www.rpi.edu/) led by [Yao Ma](https://yaoma24.github.io/). Our research lies in social computing, data mining, and machine learning, especially social network analysis, deep learning on graphs, and knowledge graphs.
+The [Data Analytics and Machine Intelligence (DAMI)](https://dami-lab.github.io/) Lab is based at [Rensselaer Polytechnic Institute](https://www.rpi.edu/) and led by [Prof. Yao Ma](https://yaoma24.github.io/). The lab works across social computing, data mining, and machine learning, with particular strength in social network analysis, deep learning on graphs, and knowledge graphs.
 
- **The DAMI Lab is growing. We are looking for passionate new PhD students, Master students, and undergraduate stduents to join the team** [more info](https://dami-lab.github.io/openings) **!**
+## Research environment
+
+My work in DAMI connects reliable knowledge grounding for LLMs with graph machine learning and data-centric AI. The lab provides a collaborative setting for developing research questions, designing careful experiments, and communicating results through papers, tutorials, and workshops.
+
+## Explore DAMI
+
+- Visit the [DAMI Lab website](https://dami-lab.github.io/) for people, publications, and current projects.
+- See [openings](https://dami-lab.github.io/openings) for Ph.D., master's, and undergraduate opportunities.
+- Read the [Publications page]({{ '/research/' | prepend: site.baseurl }}) for my publications and academic service.

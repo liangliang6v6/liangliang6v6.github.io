@@ -2,22 +2,22 @@ body {
 	margin: 0;
 	color: $font-color;
 	font-family: $font-style;
-	font-size: 1.05em;
-	line-height: 1.7;
+	font-size: 1.08em;
+	line-height: 1.75;
 	-webkit-font-smoothing: antialiased;
 	background: linear-gradient(180deg, #f8fafc 0%, #ffffff 22%, #f8fbfc 100%);
 }
 h1,
 h2,
 h3 {
-	font-weight: 600;
+	font-weight: 400;
 	color: $heading-font-color;
 	font-family: $heading-font;
 	line-height: 1.5;
 }
 h1 {
 	color: $heading-font-color;
-	font-size: 3.6em;
+	font-size: 3.15em;
 	a,
 	a:visited {
 		text-decoration: none;
@@ -25,7 +25,7 @@ h1 {
 	}
 }
 h2 {
-	font-size: 2.2em;
+	font-size: 1.95em;
 }
 a,
 a:visited {
@@ -38,7 +38,7 @@ a:hover {
 	text-decoration: underline;
 }
 main {
-	padding: 96px 20px 0;
+	padding: 42px 20px 0;
 	max-width: $content-width;
 	margin: 0 auto;
 }
@@ -73,10 +73,11 @@ time {
 					text-decoration: none;
 					display: block;
 					padding: 16px 14px;
-					font-family: 'Muli', sans-serif;
-					font-size: 0.95rem;
+					font-family: 'Source Sans 3', sans-serif;
+					font-size: 0.92rem;
+					font-weight: 600;
 					line-height: 20px;
-					border-radius: 999px;
+					border-radius: 4px;
 					&:hover,
 					&:active {
 						background: #e7eef2;
@@ -88,6 +89,40 @@ time {
 		}
 	}
 }
+
+.site-hero {
+	min-height: 310px;
+	display: flex;
+	align-items: end;
+	padding: 48px 20px;
+	background-position: center;
+	background-size: cover;
+	color: #ffffff;
+}
+
+.site-hero p {
+	margin: 0 0 8px;
+	font-size: 0.85rem;
+	font-weight: 700;
+	letter-spacing: 0.12em;
+	text-transform: uppercase;
+	color: #b7f3e8;
+}
+
+.site-hero h1 {
+	max-width: 760px;
+	margin: 0;
+	color: #ffffff;
+	font-size: clamp(2rem, 4.5vw, 3.65rem);
+	line-height: 1.2;
+}
+
+.site-hero span {
+	display: block;
+	margin-top: 14px;
+	font-size: 1.05rem;
+	color: #e2e8f0;
+}
 footer {
 	font-family: $heading-font;
 	text-align: center;
@@ -97,8 +132,8 @@ footer {
 
 .hero {
 	display: grid;
-	grid-template-columns: minmax(0, 1.5fr) minmax(260px, 0.8fr);
-	gap: 36px;
+	grid-template-columns: minmax(0, 1.45fr) minmax(280px, 0.72fr);
+	gap: 48px;
 	align-items: center;
 	padding: 40px 0 28px;
 }
@@ -115,9 +150,9 @@ footer {
 }
 
 .hero-summary {
-	max-width: 720px;
-	font-size: 1.15rem;
-	color: #475569;
+	max-width: 690px;
+	font-size: 1.18rem;
+	color: #334155;
 }
 
 .hero-actions {
@@ -129,8 +164,9 @@ footer {
 
 .button {
 	display: inline-block;
-	padding: 12px 18px;
-	border-radius: 999px;
+	padding: 10px 16px;
+	border-radius: 4px;
+	font-family: 'Source Sans 3', sans-serif;
 	transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
@@ -167,8 +203,8 @@ footer {
 .timeline-item {
 	background: rgba(255, 255, 255, 0.9);
 	border: 1px solid #e2e8f0;
-	border-radius: 24px;
-	box-shadow: 0 18px 50px rgba(15, 23, 42, 0.06);
+	border-radius: 10px;
+	box-shadow: 0 8px 22px rgba(15, 23, 42, 0.05);
 }
 
 .hero-card {
@@ -183,6 +219,21 @@ footer {
 	margin-bottom: 20px;
 }
 
+.profile-photo-professional {
+	aspect-ratio: 1 / 1;
+	object-position: center 32%;
+	border: 4px solid #ffffff;
+	box-shadow: 0 8px 20px rgba(15, 23, 42, 0.12);
+}
+
+.portrait-note {
+	margin: -2px 0 20px;
+	color: #0f766e;
+	font-family: 'Source Sans 3', sans-serif;
+	font-size: 0.95rem;
+	font-weight: 600;
+}
+
 .profile-meta {
 	margin: 0;
 }
@@ -194,6 +245,7 @@ footer {
 }
 
 .profile-meta dt {
+	font-family: 'Source Sans 3', sans-serif;
 	font-size: 0.84rem;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -224,6 +276,14 @@ footer {
 	color: #475569;
 }
 
+.profile-link {
+	margin: 24px 0 0;
+}
+
+.evidence-card {
+	border-top: 3px solid #6ee7d4;
+}
+
 .constellation-heading {
 	display: flex;
 	align-items: end;
@@ -242,38 +302,6 @@ footer {
 	overflow: hidden;
 	background: #092a32;
 	box-shadow: 0 24px 60px rgba(15, 23, 42, 0.16);
-}
-
-.constellation-toolbar {
-	display: flex;
-	flex-wrap: wrap;
-	gap: 8px;
-	padding: 16px 20px;
-	border-bottom: 1px solid rgba(226, 232, 240, 0.16);
-}
-
-.constellation-filter,
-.constellation-control {
-	font: inherit;
-	cursor: pointer;
-}
-
-.constellation-filter {
-	border: 1px solid rgba(226, 232, 240, 0.32);
-	border-radius: 999px;
-	padding: 7px 12px;
-	background: transparent;
-	color: #cbd5e1;
-	font-size: 0.78rem;
-	font-weight: 700;
-	transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
-}
-
-.constellation-filter:hover,
-.constellation-filter.is-active {
-	border-color: #f9d878;
-	background: #f9d878;
-	color: #092a32;
 }
 
 .constellation-stage {
@@ -338,49 +366,6 @@ footer {
 	backdrop-filter: blur(10px);
 }
 
-.constellation-controls {
-	display: grid;
-	grid-template-columns: repeat(4, minmax(0, 1fr));
-	border-top: 1px solid rgba(226, 232, 240, 0.16);
-}
-
-.constellation-control {
-	min-height: 74px;
-	padding: 14px;
-	border: 0;
-	border-right: 1px solid rgba(226, 232, 240, 0.16);
-	border-bottom: 1px solid rgba(226, 232, 240, 0.16);
-	background: #0d3740;
-	color: #e2e8f0;
-	font-size: 0.82rem;
-	font-weight: 700;
-	text-align: left;
-	transition: background 0.2s ease, color 0.2s ease;
-}
-
-.constellation-control:nth-child(4n) {
-	border-right: 0;
-}
-
-.constellation-control span {
-	display: block;
-	margin-bottom: 4px;
-	color: #6ee7d4;
-	font-size: 0.67rem;
-	letter-spacing: 0.1em;
-}
-
-.constellation-control:hover,
-.constellation-control:focus-visible,
-.constellation-control.is-active {
-	background: #15505a;
-	color: #ffffff;
-	outline: 0;
-}
-
-.constellation-control-curiosity span {
-	color: #f9d878;
-}
 
 .section-heading h2,
 .info-card h3,
@@ -399,7 +384,7 @@ footer {
 .info-card,
 .list-card,
 .timeline-item {
-	padding: 24px;
+	padding: 26px;
 }
 
 .timeline {
@@ -421,13 +406,72 @@ footer {
 	font-size: 1.08rem;
 }
 
+.publication-year {
+	margin: 44px 0;
+}
+
+.publication-year h2 {
+	margin-bottom: 18px;
+	padding-bottom: 8px;
+	border-bottom: 2px solid #cbd5e1;
+	font-size: 1.65rem;
+}
+
+.publication-list {
+	margin: 0;
+	padding-left: 24px;
+}
+
+.publication-entry {
+	padding: 0 0 28px 10px;
+}
+
+.publication-entry::marker {
+	color: $main;
+	font-family: $heading-font;
+	font-weight: 700;
+}
+
+.publication-entry h3 {
+	margin: 0 0 6px;
+	font-size: 1.16rem;
+	line-height: 1.42;
+}
+
+.publication-authors,
+.publication-venue,
+.publication-links,
+.publication-summary {
+	margin: 5px 0;
+}
+
+.publication-authors {
+	color: #334155;
+}
+
+.publication-venue {
+	color: #64748b;
+	font-style: italic;
+}
+
+.publication-links a {
+	display: inline-block;
+	border-bottom: 1px solid currentColor;
+	font-size: 0.9rem;
+}
+
+.publication-summary {
+	max-width: 850px;
+	color: #475569;
+}
+
 @media (max-width: 860px) {
 	h1 {
 		font-size: 2.8em;
 	}
 
-	main {
-		padding-top: 84px;
+	.site-hero {
+		min-height: 260px;
 	}
 
 	.hero,
@@ -442,17 +486,6 @@ footer {
 		gap: 10px;
 	}
 
-	.constellation-controls {
-		grid-template-columns: repeat(2, minmax(0, 1fr));
-	}
-
-	.constellation-control:nth-child(4n) {
-		border-right: 1px solid rgba(226, 232, 240, 0.16);
-	}
-
-	.constellation-control:nth-child(2n) {
-		border-right: 0;
-	}
 }
 
 @media (max-width: 560px) {
@@ -480,7 +513,7 @@ footer {
 	.info-card,
 	.list-card,
 	.timeline-item {
-		border-radius: 20px;
+		border-radius: 8px;
 	}
 
 	.constellation-shell {
@@ -504,8 +537,4 @@ footer {
 		max-width: none;
 	}
 
-	.constellation-control {
-		min-height: 66px;
-		padding: 11px;
-	}
 }

@@ -4,16 +4,37 @@ title: About
 permalink: /about/
 ---
 
-Hey! I'm Liangliang Zhang, a Ph.D. student of Computer Science at [Rensselaer Polytechnic Institute (RPI)](https://www.rpi.edu/) under the supervision of [Prof. Yao Ma](https://yaoma24.github.io/). I received a bachelor's degree in Software Engineering from the [Central South University (CSU)](https://en.csu.edu.cn/). Check and download my CV [here](../assets/pdf/CV.pdf) (PDF).
+I am a Ph.D. candidate in Computer Science at [Rensselaer Polytechnic Institute (RPI)](https://www.rpi.edu/), advised by [Prof. Yao Ma](https://yaoma24.github.io/). I received my bachelor's degree in Software Engineering from [Central South University (CSU)](https://en.csu.edu.cn/).
 
-**Find me online:**  
-[LinkedIn](https://www.linkedin.com/in/liangliang-zhang-9a4b19239/) &nbsp;|&nbsp;[Google Scholar](https://scholar.google.com/citations?user=IKJj0iMAAAAJ&hl=en&oi=sra) &nbsp;|&nbsp;[GitHub](https://github.com/liangliang6v6)
+My research develops reliable AI systems with large language models, knowledge graphs, graph machine learning, and data-centric evaluation. I am particularly interested in systems that can ground their reasoning in structured evidence and be evaluated rigorously in realistic settings.
+
+**Professional links:** [CV](../assets/pdf/CV.pdf) | [LinkedIn](https://www.linkedin.com/in/liangliang-zhang-9a4b19239/) | [Google Scholar](https://scholar.google.com/citations?user=IKJj0iMAAAAJ&hl=en&oi=sra) | [GitHub](https://github.com/liangliang6v6)
 
 ## Research Interests
 
 - Reliable Knowledge Grounding for LLMs
 - Machine Learning with Graphs, Graph Neural Networks
 - Data-Centric AI, Data Condensation
+
+## Experience
+
+**IBM Research, Yorktown Heights**<br>
+Summer Research Intern, 2025 and 2026
+
+I contributed to applied AI research on data product discovery and reliable knowledge-grounded systems. During the 2025 internship, I was mentored by [Dr. Nandana Mihindukulasooriya](https://www.linkedin.com/in/nandanamihindu/).
+
+**Data Analytics and Machine Intelligence Lab, RPI**<br>
+Ph.D. Researcher
+
+I conduct research on LLM reasoning, knowledge graphs, graph learning, and trustworthy evaluation with the DAMI Lab.
+
+## Education
+
+**Rensselaer Polytechnic Institute**<br>
+Ph.D. in Computer Science, ongoing
+
+**Central South University**<br>
+Bachelor's degree in Software Engineering
 
 
 
