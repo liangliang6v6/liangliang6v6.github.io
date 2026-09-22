@@ -4,65 +4,16 @@ title: About
 permalink: /about/
 ---
 
-I am Liangliang Zhang (张靓靓), a Ph.D. candidate in Computer Science at [Rensselaer Polytechnic Institute (RPI)](https://www.rpi.edu/), advised by [Prof. Yao Ma](https://yaoma24.github.io/). I received my bachelor's degree in Software Engineering from [Central South University (CSU)](https://en.csu.edu.cn/).
+Hey! I'm Liangliang Zhang, a Ph.D. student of Computer Science at [Rensselaer Polytechnic Institute (RPI)](https://www.rpi.edu/) under the supervision of [Prof. Yao Ma](https://yaoma24.github.io/). I received a bachelor's degree in Software Engineering from the [Central South University (CSU)](https://en.csu.edu.cn/). Check and download my CV [here](../assets/pdf/CV.pdf) (PDF).
 
-My Ph.D. research focuses on **reliable retrieval-augmented generation (RAG)**. The central question guiding my work is: when a large language model relies on external evidence, how can we ensure that its retrieval and reasoning are sufficient, relevant, and trustworthy? I study retrieval planning, knowledge-graph grounding, graph machine learning, and data-centric evaluation to build AI systems whose answers can be inspected and evaluated rigorously in realistic settings.
-
-<nav class="professional-links" aria-label="Professional links">
-  <strong>Professional links</strong>
-  <a href="{{ '/assets/pdf/CV.pdf' | prepend: site.baseurl }}" target="_blank" rel="noopener noreferrer">CV</a>
-  <a href="https://www.linkedin.com/in/liangliang-zhang-9a4b19239/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-  <a href="https://scholar.google.com/citations?user=IKJj0iMAAAAJ&amp;hl=en&amp;oi=sra" target="_blank" rel="noopener noreferrer">Google Scholar</a>
-  <a href="https://github.com/liangliang6v6" target="_blank" rel="noopener noreferrer">GitHub</a>
-</nav>
+**Find me online:**  
+[LinkedIn](https://www.linkedin.com/in/liangliang-zhang-9a4b19239/) &nbsp;|&nbsp;[Google Scholar](https://scholar.google.com/citations?user=IKJj0iMAAAAJ&hl=en&oi=sra) &nbsp;|&nbsp;[GitHub](https://github.com/liangliang6v6)
 
 ## Research Interests
 
-- Reliable RAG and Knowledge Grounding for LLMs
-- Retrieval Planning and Knowledge-Graph-Augmented Reasoning
+- Reliable Knowledge Grounding for LLMs
 - Machine Learning with Graphs, Graph Neural Networks
-- Data-Centric AI, Benchmarking, and Data Condensation
-
-## Experience
-
-**IBM Research, Yorktown Heights**<br>
-Returning Summer Research Intern, 2026
-
-Returning to IBM Research for a second summer internship with the same collaboration team. I developed AGENTICTT, an adaptive retrieval-and-reasoning framework for table-text question answering.
-
-**Output:** *Adaptive Agentic Retrieval and Reasoning for Table-Text QA*, submitted to AAAI 2027; arXiv preprint forthcoming.
-
-**IBM Research, Yorktown Heights**<br>
-Summer Research Intern, 2025
-
-With the same collaboration team, I developed a benchmark for data product discovery over tables and text. During the 2025 internship, I was mentored by [Dr. Nandana Mihindukulasooriya](https://www.linkedin.com/in/nandanamihindu/).
-
-**Output:** [*From Factoid Questions to Data Product Requests: Benchmarking Data Product Discovery over Tables and Text*](https://arxiv.org/pdf/2510.21737), arXiv:2510.21737.
-
-**Data Analytics and Machine Intelligence Lab, RPI**<br>
-Ph.D. Researcher
-
-I conduct research on reliable RAG, LLM reasoning, knowledge graphs, graph learning, and trustworthy evaluation with the DAMI Lab.
-
-## Education
-
-**Rensselaer Polytechnic Institute**<br>
-Ph.D. in Computer Science, ongoing
-
-**Central South University**<br>
-Bachelor's degree in Software Engineering
-
-## Service, Awards, and Community
-
-- Reviewer, [NeurIPS 2026](https://neurips.cc/)
-- Best Doctoral Consortium Presentation Award, WSDM 2026
-- WSDM 2026 Student Travel Award
-- KDD 2024 Student Travel Award
-- Academic Year Scholarship x4, School of Computer Science, Central South University
-- [KDD'24 Safe Multi-Modal Machine Learning Tutorial](https://sites.google.com/view/kdd-tutorial/safe-multi-modal)
-- [WWW'24 Data-centric Artificial Intelligence Workshop](https://dcai-workshop.github.io/)
-- [SDM'24 Data Science for Smart Manufacturing and Healthcare Workshop](https://dssmh.github.io/)
-- [Data Analytics and Machine Intelligence Lab](https://dami-lab.github.io/)
+- Data-Centric AI, Data Condensation
 
 
 

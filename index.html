@@ -1,140 +1,28 @@
 ---
 layout: default
 ---
-<section class="hero" id="top">
-  <div class="hero-copy">
-    <p class="eyebrow">Ph.D. Candidate in Computer Science · Reliable RAG</p>
-    <h1>Liangliang Zhang <span class="name-chinese" lang="zh-CN">张靓靓</span></h1>
-    <p class="hero-summary">
-      My Ph.D. research asks a practical question: when a large language model uses external evidence, how can we make its answer reliable?
-      I study retrieval, planning, knowledge graphs, and evaluation to build RAG systems that are grounded, efficient, and trustworthy.
+<div class="bio">
+  <img src="{{ 'assets/img/profile.jpg' | prepend: site.baseurl }}" alt="Profile Photo" class="profile-photo">
+  <div class="bio-content">
+    <h2>Hi! I'm Liangliang Zhang (张靓靓)</h2>
+    <p>
+      Welcome to my corner of the AI universe! 🪐<br>
+      I'm Liangliang Zhang, a dedicated Ph.D. student in Computer Science at 
+      <a href="https://www.rpi.edu/">Rensselaer Polytechnic Institute (RPI)</a>, where I have the privilege of being guided by 
+      <a href="https://yaoma24.github.io/">Prof. Yao Ma</a>. Join me on an exciting journey exploring large language models, knowledge graphs, graph neural networks, data-centric machine learning.
+    <p>
+      Check and download my CV at <a href="{{ '/assets/pdf/CV.pdf' | prepend: site.baseurl }}" target="_blank" rel="noopener noreferrer">here</a> (PDF).
     </p>
-    <div class="hero-actions">
-      <a class="button button-primary" href="{{ '/assets/pdf/CV.pdf' | prepend: site.baseurl }}" target="_blank" rel="noopener noreferrer">View CV</a>
-      <a class="button button-secondary" href="mailto:{{ site.email }}">Contact</a>
-    </div>
-    <ul class="link-list">
-      <li><a href="https://www.linkedin.com/in/liangliang-zhang-9a4b19239/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
-      <li><a href="https://scholar.google.com/citations?user=IKJj0iMAAAAJ&hl=en&oi=sra" target="_blank" rel="noopener noreferrer">Google Scholar</a></li>
-      <li><a href="https://github.com/liangliang6v6" target="_blank" rel="noopener noreferrer">GitHub</a></li>
-    </ul>
+    <p>
+      <a href="https://www.linkedin.com/in/liangliang-zhang-9a4b19239/" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-linkedin"></i> LinkedIn
+      </a> &nbsp;|&nbsp;
+      <a href="https://scholar.google.com/citations?user=IKJj0iMAAAAJ&hl=en&oi=sra" target="_blank" rel="noopener noreferrer">
+        <i class="ai ai-google-scholar"></i> Google Scholar
+      </a> &nbsp;|&nbsp;
+      <a href="https://github.com/liangliang6v6" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-github"></i> GitHub
+      </a>
+    </p>
   </div>
-  <div class="hero-card">
-    <img src="{{ 'assets/img/profile.jpeg' | prepend: site.baseurl }}" alt="Professional portrait of Liangliang Zhang" class="profile-photo profile-photo-professional">
-    <p class="portrait-note">Curious by nature. Serious about reliable AI.</p>
-    <dl class="profile-meta">
-      <div>
-        <dt>Current role</dt>
-        <dd>Ph.D. Candidate, RPI</dd>
-      </div>
-      <div>
-        <dt>Research areas</dt>
-        <dd>Reliable RAG, knowledge graphs, graph ML</dd>
-      </div>
-    </dl>
-  </div>
-</section>
-
-<section class="research-question" aria-labelledby="big-question-title">
-  <p class="section-label">Research Goal</p>
-  <h2 id="big-question-title">I work to make RAG systems reliable enough to trust.</h2>
-  <p>I target the gap between retrieving information and using it responsibly: helping LLMs plan retrieval, connect evidence across knowledge sources, and demonstrate that their answers are grounded in sufficient, relevant evidence.</p>
-</section>
-
-<section class="section" id="expertise">
-  <div class="section-heading">
-    <p class="section-label">Expertise</p>
-    <h2>Reliable RAG and supporting areas</h2>
-  </div>
-  <div class="card-grid">
-    <article class="info-card">
-      <h3>Reliable RAG</h3>
-      <p>Retrieval planning, grounded reasoning, and evidence-aware generation for more dependable LLM behavior.</p>
-    </article>
-    <article class="info-card">
-      <h3>Knowledge Graphs</h3>
-      <p>Knowledge grounding, structured retrieval, and benchmark design for robust AI systems.</p>
-    </article>
-    <article class="info-card">
-      <h3>Graph Machine Learning</h3>
-      <p>Graph neural networks, graph condensation, and scalable representation learning.</p>
-    </article>
-    <article class="info-card">
-      <h3>Evaluation and Data</h3>
-      <p>Dataset diagnosis, benchmarking, and evaluation methods that make RAG claims more reliable and actionable.</p>
-    </article>
-  </div>
-</section>
-
-<section class="section" id="experience">
-  <div class="section-heading">
-    <p class="section-label">Internships</p>
-    <h2>Industry research experience</h2>
-  </div>
-  <div class="experience-list">
-    <article class="experience-row">
-      <div class="organization-mark organization-mark-ibm"><a href="https://research.ibm.com/" target="_blank" rel="noopener noreferrer">IBM Research</a></div>
-      <div>
-        <h3>Returning Summer Research Intern <span>· Summer 2026</span></h3>
-        <p>Yorktown Heights. With the same IBM Research collaboration team, developed AGENTICTT for adaptive table-text QA.</p>
-        <p class="experience-output"><strong>Output:</strong> <em>Adaptive Agentic Retrieval and Reasoning for Table-Text QA</em>, submitted to AAAI 2027; arXiv preprint forthcoming.</p>
-      </div>
-    </article>
-    <article class="experience-row">
-      <div class="organization-mark organization-mark-ibm"><a href="https://research.ibm.com/" target="_blank" rel="noopener noreferrer">IBM Research</a></div>
-      <div>
-        <h3>Summer Research Intern <span>· Summer 2025</span></h3>
-        <p>Yorktown Heights. With the same IBM Research collaboration team, developed a benchmark for data product discovery over tables and text.</p>
-        <p class="experience-output"><strong>Output:</strong> <a href="https://arxiv.org/pdf/2510.21737" target="_blank" rel="noopener noreferrer"><em>From Factoid Questions to Data Product Requests: Benchmarking Data Product Discovery over Tables and Text</em></a>, arXiv:2510.21737.</p>
-      </div>
-    </article>
-    <article class="experience-row">
-      <div class="organization-mark organization-mark-rpi"><a href="https://www.rpi.edu/" target="_blank" rel="noopener noreferrer">RPI</a></div>
-      <div>
-        <h3>Ph.D. Candidate <span>· Ongoing</span></h3>
-        <p>Rensselaer Polytechnic Institute. Reliable RAG, knowledge graphs, graph learning, and trustworthy evaluation in the DAMI Lab.</p>
-      </div>
-    </article>
-  </div>
-</section>
-
-<section class="section" id="publications">
-  <div class="section-heading">
-    <p class="section-label">Publications</p>
-    <h2>Selected publications</h2>
-  </div>
-  <p class="section-intro">Selected first-author work on reliable RAG, data discovery, and graph learning. See the <a href="{{ '/research/' | prepend: site.baseurl }}">full publication list</a> for all papers and academic service.</p>
-  <div class="timeline">
-    <article class="timeline-item">
-      <p class="timeline-meta">arXiv 2025</p>
-      <h3>From Factoid Questions to Data Product Requests: Benchmarking Data Product Discovery over Tables and Text</h3>
-      <p>Liangliang Zhang, Nandana Mihindukulasooriya, Niharika S. D'Souza, Sola Shirai, Sarthak Dash, Yao Ma, Horst Samulowitz</p>
-      <a href="https://arxiv.org/pdf/2510.21737" target="_blank" rel="noopener noreferrer">Preprint</a>
-    </article>
-    <article class="timeline-item">
-      <p class="timeline-meta">NeurIPS 2025</p>
-      <h3>Diagnosing and Addressing Pitfalls in KG-RAG Datasets: Toward More Reliable Benchmarking</h3>
-      <p>Liangliang Zhang, Zhuorui Jiang, Hongliang Chi, Haoyang Chen, Mohammed Elkoumy, Fali Wang, Qiong Wu, Zhengyi Zhou, Shirui Pan, Suhang Wang, Yao Ma</p>
-      <a href="https://arxiv.org/pdf/2505.23495" target="_blank" rel="noopener noreferrer">Paper</a>
-    </article>
-    <article class="timeline-item">
-      <p class="timeline-meta">TMLR 2025</p>
-      <h3>Extending Graph Condensation to Multi-Label Datasets: A Benchmark Study</h3>
-      <p>Liangliang Zhang, Haoran Bao, Yao Ma</p>
-      <a href="https://openreview.net/pdf?id=7aJxaPg30d" target="_blank" rel="noopener noreferrer">Paper</a>
-    </article>
-  </div>
-</section>
-
-<section class="section section-compact" id="contact">
-  <div class="section-heading">
-    <p class="section-label">Contact</p>
-    <h2>Let&apos;s connect</h2>
-  </div>
-  <p class="contact-copy">
-    Email me at <a href="mailto:{{ site.email }}">{{ site.email }}</a> for research collaborations, research scientist, applied scientist, and machine learning opportunities.
-  </p>
-  <p class="contact-copy">
-    Learn more on the <a href="{{ '/about/' | prepend: site.baseurl }}">About</a>, <a href="{{ '/research/' | prepend: site.baseurl }}">Publications</a>, and <a href="{{ '/lab/' | prepend: site.baseurl }}">DAMI Lab</a> pages.
-  </p>
-</section>
+</div>
